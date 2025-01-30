@@ -1,0 +1,80 @@
+/* Importar fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+body {
+    background: #111113;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #ACB5BB;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.feature-description {
+    color: #ACB5BB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.hero {
+    padding: 100px 0;
+
+}
+
+.cta {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+}
+
+.footer {
+    background-color: #111113;
+}
+
+h1{
+color: white;
+font-size: 48px;
+font-family: Inter;
+font-weight: 500;
+line-height: 60px;
+word-wrap: break-word
+}
+
+h2{
+color: white;
+font-size: 32px;
+font-family: Inter;
+font-weight: 500;
+line-height: 48px;
+word-wrap: break-word
+}
+
+p {
+color: #ACB5BB;
+font-size: 16px;
+font-family: Inter;
+font-weight: 500;
+line-height: 24px;
+word-wrap: break-word;
+letter-spacing: -0.32px;
+}
+
+.features{
+color: white;
+font-size: 12px;
+font-family: Inter;
+font-weight: 500;
+word-wrap: break-word
+}
+
+
+
+#leaderboard {
+    margin-top: 180px; /* Ajusta según sea necesario */
+}
+

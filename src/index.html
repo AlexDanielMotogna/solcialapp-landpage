@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solcial - Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/faq.css">
+    <link rel="stylesheet" href="style/buttons.css">
+    <link rel="stylesheet" href="style/cards.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/icons/solcialLogo.png" alt="Solcial Logo" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link" href="#features">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#leaderboard">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#wallet">Tournaments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#community">Analyzer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#leaderboard">Quest</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#wallet">Global Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#community">Referrals</a></li>
+                    <!-- Botón dentro del menú en móvil -->
+                    <li class="nav-item d-lg-none mt-3 text-center">
+                        <a class="btn btn-success" href="#">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Botón en escritorio -->
+            <a class="btn btn-success d-none d-lg-block" href="#">Get Started</a>
+        </div>
+    </nav>
+    
+     <!-- Hero Section -->
+     <header class="hero text-center text-light position-relative">
+        <img src="img/bg/bg-hero.png" alt="Hero Background" class="position-absolute w-100 h-100" style="top: 0; left: 0; object-fit: cover; z-index: -1;">
+        <img src="img/bg/gradient.png" alt="Hero Gradient" class="position-absolute w-100" style="bottom: 0; left: 50%; transform: translateX(-50%); z-index: 2;">
+        <div class="container position-relative" style="z-index: 1;">
+            <div class="d-flex justify-content-center mt-5">
+                <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                    <img src="img/icons/flashdark.png" alt="flashicon">
+                    All in one Social App
+                </span>
+            </div>
+            <h1 class="mb-3">The Competitive Social Network on <br> the Solana Blockchain</h1>
+            <p class="mb-4">SOLCIAL is an all-in-one platform that combines trading competitions, financial opportunities, and social networking for cryptocurrency enthusiasts.</p>
+            <img src="img/mockups/Dashboad.png" alt="Dashboad" class="img-fluid w-75 w-md-50 w-lg-50">
+        </div>
+    </header>
+    
+   <!-- Features Section -->
+   <section id="features" class="container my-5">
+    <div class="d-flex justify-content-center my-4">
+<span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+    <img src="img/icons/flashdark.png" alt="flashicon">
+    Features
+</span>
+</div>
+<h2 class="text-center text-light">Empowering Traders with Game-Changing Features</h2>
+<p class="text-center">From competitive trading to seamless wallet management, explore the features that make Solcial your ultimate platform.</p>
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/cup.png" alt="Trading Competitions" class="mb-3" width="40">
+                    <h4>Trading Competitions</h4>
+                    <p>Join exciting public and private matches, track stats, and climb the global leaderboard to showcase your skills.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/Group.png" alt="Wallet Analyzer" class="mb-3" width="40">
+                    <h4>Wallet Analyzer</h4>
+                    <p>Monitor your portfolio effortlessly with detailed transaction tracking and profit/loss analysis.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/ranking.png" alt="Quests & Rewards" class="mb-3" width="40">
+                    <h4>Quests & Rewards</h4>
+                    <p>Complete fun tasks, earn cryptocurrency rewards, and level up on the leaderboard.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/message-notif.png" alt="Global Chat" class="mb-3" width="40">
+                    <h4>Global Chat</h4>
+                    <p>Collaborate with a global trading community in real time to share tips, strategies, and updates.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/gift.png" alt="Referral Program" class="mb-3" width="40">
+                    <h4>Referral Program</h4>
+                    <p>Earn rewards by inviting friends. Get 5% of transaction fees for every referred user.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card text-light p-4">
+                    <img src="img/icons/flash.png" alt="Advanced Insights" class="mb-3" width="40">
+                    <h4>Advanced Insights</h4>
+                    <p>Gain competitive advantages with in-depth market insights, trade tracking, and real-time analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Leaderboard Section -->
+    <section id="leaderboard" class="container text-light  position-relative mt-10">
+        <img src="img/bg/Bg.png" alt="Hero Background" class="position-absolute  w-100 h-100" style=" object-fit: cover; z-index: -1; opacity: 0.3;">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="d-flex my-4">
+                    <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                        <img src="img/icons/tag.png" alt="flashicon">
+                        Competitions
+                    </span>
+                </div>
+                <h2>Compete and Climb the Leaderboard</h2>
+                <p>Challenge traders worldwide in public and private matches or create custom tournaments.
+                Track your performance with detailed stats and analytics. Climb the global leaderboard to showcase your skills.
+                Earn cryptocurrency rewards for every victory.</p>
+                <button class="btn btn-success">Join Competition</button>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="img/mockups/Matches.png" alt="Leaderboard" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Analyzer Section -->
+    <section id="analyzer" class="container text-light my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-start">
+                <img src="img/mockups/Analyze.png" alt="Wallet Analysis" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex my-4">
+                    <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                        <img src="img/icons/tag.png" alt="flashicon">
+                        Analyzer
+                    </span>
+                </div>
+                <h2>Analyze Your Wallet in Real-Time</h2>
+                <p>Monitor your portfolio with real-time metrics, including balance, profits, and transactions. Gain actionable insights to optimize your trades and maximize returns. Review your top holdings and recent gains at a glance. Stay in control with effortless wallet management.</p>
+                <button class="btn btn-primary">Analyze Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quest Section -->
+    <section id="quest" class="container text-light my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="d-flex my-4">
+                    <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                        <img src="img/icons/tag.png" alt="flashicon">
+                        Quest
+                    </span>
+                </div>
+                <h2>Complete Quests and Earn Rewards</h2>
+                <p>Take on engaging challenges to unlock cryptocurrency rewards and level up. Browse a variety of quests designed for both users and creators. Earn while you engage with the community and build your profile. Get started and turn tasks into real earnings today.</p>
+                <button class="btn btn-primary">Join Chat</button>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="img/mockups/Quest.png" alt="Community Chat" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+     <!--Chat Section -->
+    <section id="chat" class="container text-light my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-start">
+                <img src="img/mockups/Chat.png" alt="Wallet Analysis" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex my-4">
+                    <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                        <img src="img/icons/tag.png" alt="flashicon">
+                        Community
+                    </span>
+                </div>
+                <h2>Connect with Traders Worldwide</h2>
+                <p>Join 24/7 real-time conversations with traders from across the globe. Share strategies, discuss trends, and collaborate with like-minded individuals. Be part of a growing community of crypto enthusiasts. Stay informed and engaged with our global chat platform.</p>
+                <button class="btn btn-primary">Analyze Now</button>
+            </div>
+        </div>
+    </section>
+   
+<!--Referrals Section -->
+    <section id="referral" class="container text-light my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="d-flex my-4">
+                    <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #161618; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #44444A; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                        <img src="img/icons/tag.png" alt="flashicon">
+                        Referrals
+                    </span>
+                </div>
+                <h2>Invite Friends and Earn Rewards</h2>
+                <p>Share your unique referral link to grow your network and earn bonuses. Enjoy 5% of transaction fees from your referred users’ activity. Track your referral history and rewards directly on the platform. Start earning by inviting your friends today.</p>
+                <button class="btn btn-primary">Join Chat</button>
+            </div>
+            <div class="col-md-6 text-end">
+                <img src="img/mockups/Refferal.png" alt="Community Chat" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    
+     <!-- FAQ Section -->
+     <section id="faq" class="container text-light my-5">
+        <h2 class="text-center">Find Answers to Common Questions</h2>
+        <p class="text-center">Have questions? We've got you covered! Explore our frequently asked questions to get quick answers about wallet connections, rewards, security, and more.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion" id="faqAccordion1">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">How do I connect my wallet?</button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show">
+                            <div class="accordion-body">Click the "Connect Wallet" button, select your wallet provider, and follow the on-screen instructions.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">Is my data secure?</button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse">
+                            <div class="accordion-body">Yes, we use top-tier encryption and security measures to protect your data.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">How are rewards distributed?</button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse">
+                            <div class="accordion-body">Rewards are distributed automatically to your connected wallet based on performance and achievements.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="accordion" id="faqAccordion2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">Are there any free competitions to join?</button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse">
+                            <div class="accordion-body">Yes, we offer free competitions regularly. Check the tournaments section for availability.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">What is the referral program?</button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse">
+                            <div class="accordion-body">You can earn bonuses by inviting friends to join Solcial. The more friends you refer, the higher your rewards.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+<section id="cta" class="container my-5 position-relative overflow-hidden">
+    <div class="p-5 text-center text-light position-relative" style="background: linear-gradient(90deg, #7B61FF, #17EAD9); border-radius: 20px;">
+        <!-- Imagen de fondo solo dentro del div -->
+        <img src="img/bg/Bg.png" alt="Background Texture" class="position-absolute w-100 h-100" 
+             style="top: 0; left: 0; opacity: 0.3; object-fit: cover; border-radius: 20px; z-index: 0;">
+        
+        <div class="mb-2 position-relative" style="z-index: 1;">
+            <div class="d-flex my-4 justify-content-center">
+                <span class="px-3 py-1 d-flex gap-2 align-items-center" style="background: #ffffff00; box-shadow: inset 0px 7.4px 18.5px rgba(255, 255, 255, 0.11); border-radius: 46px; border: 1px solid #ffffff; color: white; font-size: 12px; font-family: Inter; font-weight: 500;">
+                    <img src="img/icons/tag.png" alt="flashicon">
+                    Referrals
+                </span>
+            </div>
+        </div>
+        <h2 class="fw-bold position-relative" style="z-index: 1;">Take the First Step to Join Social</h2>
+        <p class="mt-3 text-light position-relative" style="z-index: 1;">
+            Start trading, completing quests, and connecting with a global community today.<br>
+            Whether you're a beginner or an expert, Solcial provides the tools you need to succeed.<br>
+            Don't miss out on earning rewards and climbing the leaderboard.
+        </p>
+        <button class="btn-cta btn-dark position-relative" style="z-index: 1;">Get Started</button>
+    </div>
+</section>
+
+    
+     <!-- Footer -->
+     <footer class="footer text-light text-center py-4">
+        <div class="container">
+            <div class="mb-3">
+                <img src="img/icons/solcialLogo.png" alt="Solcial Logo" height="40">
+            </div>
+            <ul class="list-inline mb-3">
+                <li class="list-inline-item"><a href="#features" class="text-light" style="text-decoration: none;">Home</a></li>
+                <li class="list-inline-item">•</li>
+                <li class="list-inline-item"><a href="#leaderboard" class="text-light" style="text-decoration: none;">Tournaments</a></li>
+                <li class="list-inline-item">•</li>
+                <li class="list-inline-item"><a href="#wallet" class="text-light" style="text-decoration: none;">Analyzer</a></li>
+                <li class="list-inline-item">•</li>
+                <li class="list-inline-item"><a href="#community" class="text-light" style="text-decoration: none;">Quest</a></li>
+                <li class="list-inline-item">•</li>
+                <li class="list-inline-item"><a href="#leaderboard" class="text-light" style="text-decoration: none;">Global Chat</a></li>
+                <li class="list-inline-item">•</li>
+                <li class="list-inline-item"><a href="#wallet" class="text-light" style="text-decoration: none;">Referrals</a></li>
+            </ul>
+            <hr class="border-secondary">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0">© 2025 Solcial – Made by Social App</p>
+                <div class="d-flex">
+                    <a href="#" class="mx-2"><img src="img/icons/socialmediaicons/facebook.png" alt="Facebook" width="24"></a>
+                    <a href="#" class="mx-2"><img src="img/icons/socialmediaicons/x.png" alt="Twitter" width="24"></a>
+                    <a href="#" class="mx-2"><img src="img/icons/socialmediaicons/instagram.png" alt="Instagram" width="24"></a>
+                    <a href="#" class="mx-2"><img src="img/icons/socialmediaicons/linkedin.png" alt="LinkedIn" width="24"></a>
+                </div>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#" class="text-light" style="text-decoration: none;">Privacy Policy</a></li>
+                    <li class="list-inline-item">•</li>
+                    <li class="list-inline-item"><a href="#" class="text-light" style="text-decoration: none;">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

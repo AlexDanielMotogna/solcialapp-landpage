@@ -1,0 +1,65 @@
+/* Botones personalizados */
+.btn {
+    display: flex;
+    width: auto;
+    height: 38px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(90deg, #9945FF 0%, #0BCB7B 100%), #5350F2;
+    box-shadow: 0px 0px 0px 3.7px rgba(190, 202, 234, 0.03), 0px 7.4px 18.5px 0px rgba(255, 255, 255, 0.11) inset;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-text {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+/* Botón CTA */
+.btn-cta {
+    width: 124px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--Secondary-500, #44444A);
+    background: var(--Secondary-700, #161618);
+    box-shadow: 0px 0px 0px 3.7px rgba(190, 202, 234, 0.03), 0px 7.4px 18.5px 0px rgba(255, 255, 255, 0.11) inset;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-cta:hover {
+    filter: brightness(1.2);
+}
+
+.btn-cta:active {
+    transform: scale(0.98);
+}
