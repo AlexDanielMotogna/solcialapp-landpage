@@ -104,3 +104,17 @@ word-wrap: break-word
 margin-top: 30px;
 
 }
+
+.swiper-slide {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.swiper-slide-active {
+    opacity: 1;
+}
+/* Evitar scroll horizontal */
+.swiper-container {
+    overflow: hidden; /* Esconde cualquier contenido fuera del contenedor */
+    width: 100%;
+    max-width: 100%;
+}
