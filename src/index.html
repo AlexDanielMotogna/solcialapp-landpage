@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/buttons.css">
     <link rel="stylesheet" href="style/cards.css">
     <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/navbar.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -23,13 +24,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav gap-4">
-                    <li class="nav-item"><a class="nav-link" href="#features">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#leaderboard">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#wallet">Tournaments</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#community">Analyzer</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#leaderboard">Quest</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#wallet">Global Chat</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#community">Referrals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#leaderboard">Tournaments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#analyzer">Analyzer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#quest">Quest</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#chat">Global Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#referral">Referrals</a></li>
                     <!-- Botón dentro del menú en móvil -->
                     <li class="nav-item d-lg-none mt-3 text-center">
                         <a class="btn btn-success" target="_blank" href="https://www.solcialapp.io/">Launch App</a>
@@ -42,7 +43,7 @@
     </nav>
     
      <!-- Hero Section -->
-     <header class="hero text-center text-light position-relative">
+     <header id="home" class="hero text-center text-light position-relative">
         <img src="img/bg/bg-hero.png" alt="Hero Background" class="position-absolute w-100 h-100" style="top: 0; left: 0; object-fit: cover; z-index: -1;">
         <img src="img/bg/gradient.png" alt="Hero Gradient" class="position-absolute w-100" style="bottom: 0; left: 50%; transform: translateX(-50%); z-index: 2;">
         <div class="container position-relative" style="z-index: 1;">
@@ -72,10 +73,10 @@
             <img src="img/icons/flashdark.png" alt="flashicon">
             Features
         </span>
-</div>
-<h2 class="text-center text-light">Empowering Traders with Game-Changing Features</h2>
-<p class="text-center">From competitive trading to seamless wallet management, explore the features that make Solcial your ultimate platform.</p>
-        <div class="row g-4 mt-4">
+    </div>
+        <h2 class="text-center text-light">Empowering Traders with Game-Changing Features</h2>
+        <p class="text-center">From competitive trading to seamless wallet management, explore the features that make Solcial your ultimate platform.</p>
+                <div class="row g-4 mt-4">
             <div class="col-12 col-md-4">
                 <div class="feature-card text-light p-4">
                     <img src="img/icons/cup.png" alt="Trading Competitions" class="mb-3" width="40">
@@ -123,6 +124,8 @@
     
     <!-- Leaderboard Section -->
 <section id="leaderboard" class="container text-light position-relative mt-10">
+    <img src="img/bg/Bg.png" alt="Analyzer Background" class="position-absolute w-100 h-100"
+         style="top: 0; left: 0; object-fit: cover; z-index: -1; opacity: 0.3;">
     <!--<img src="img/bg/Bg.png" alt="Hero Background" class="position-absolute w-100 h-100" style="object-fit: cover; z-index: -1; opacity: 0.3;">-->
     <div class="row align-items-center">
         <div class="textButton col-12 col-md-6">
@@ -145,7 +148,9 @@
 </section>
 
 <!-- Analyzer Section -->
-<section id="analyzer" class="container text-light my-5">
+<section id="analyzer" class="container text-light position-relative mt-10">
+    <img src="img/bg/Bg.png" alt="Analyzer Background" class="position-absolute w-100 h-100"
+         style="top: 0; left: 0; object-fit: cover; z-index: -1; opacity: 0.3;">
     <div class="row align-items-center flex-column-reverse flex-md-row">
         <div class="sectionimg col-12 col-md-6 d-flex justify-content-center">
             <img src="img/mockups/Analyze.png" alt="Wallet Analysis" class="img-fluid">
@@ -165,7 +170,9 @@
 </section>
 
 <!-- Quest Section -->
-<section id="quest" class="container text-light my-5">
+<section id="quest" class="container text-light position-relative mt-10">
+    <img src="img/bg/Bg.png" alt="Analyzer Background" class="position-absolute w-100 h-100"
+    style="top: 0; left: 0; object-fit: cover; z-index: -1; opacity: 0.3;">
     <div class="row align-items-center">
         <div class="textButton col-12 col-md-6">
             <div class="d-flex my-4">
@@ -185,7 +192,9 @@
 </section>
 
 <!-- Chat Section -->
-<section id="chat" class="container text-light my-5">
+<section id="chat" class="container text-light position-relative mt-10">
+    <img src="img/bg/Bg.png" alt="Analyzer Background" class="position-absolute w-100 h-100"
+    style="top: 0; left: 0; object-fit: cover; z-index: -1; opacity: 0.3;">
     <div class="row align-items-center flex-column-reverse flex-md-row">
         <div class="sectionimg col-12 col-md-6 d-flex justify-content-center">
             <img src="img/mockups/Chat.png" alt="Wallet Analysis" class="img-fluid">
@@ -205,7 +214,9 @@
 </section>
 
 <!-- Referrals Section -->
-<section id="referral" class="container text-light my-5">
+<section id="referral" class="container text-light position-relative mt-10">
+    <img src="img/bg/Bg.png" alt="Analyzer Background" class="position-absolute w-100 h-100"
+    style="top: 0; left: 0; object-fit: cover; z-index: -1; opacity: 0.3;">
     <div class="row align-items-center">
         <div class="textButton col-12 col-md-6">
             <div class="d-flex my-4">

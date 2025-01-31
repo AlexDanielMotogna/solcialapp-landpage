@@ -78,6 +78,162 @@
         flex-direction: column;
         align-items: center; /* Centra todo horizontalmente */
     }
+
+    .navbar-toggler {
+        border: none;
+        background: linear-gradient(90deg, #9945FF, #0BCB7B);
+        padding: 8px 10px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 8px rgba(0, 255, 204, 0.5);
+        transition: all 0.3s ease-in-out;
+        outline: none;
+    }
+
+    .navbar-toggler:hover {
+        background: linear-gradient(90deg, #7C3AED, #17EAD9);
+        box-shadow: 0px 0px 12px rgba(0, 255, 204, 0.8);
+    }
+
+    /* Personalización del icono dentro del botón */
+    .navbar-toggler-icon {
+        width: 26px;
+        height: 26px;
+        background-image: none;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar-toggler-icon::before,
+    .navbar-toggler-icon::after,
+    .navbar-toggler-icon div {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 26px;
+        background-color: white;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Animación cuando el menú está abierto */
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon div {
+        opacity: 0;
+    }
+
+    /* Fondo del menú desplegable en móvil */
+    .navbar-collapse {
+        background: rgba(22, 22, 24, 0.308);
+        padding: 12px;
+        border-radius: 6px;
+        backdrop-filter: blur(8px);
+    }
+
+    /* Menú centrado en móvil */
+    .navbar-nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        gap: 0 !important;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 8px;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #17EAD9;
+        text-shadow: 0px 0px 8px rgba(23, 234, 217, 0.6);
+    }
+
+    /* Estilización del botón dentro del menú en móvil */
+    .navbar-nav .btn {
+        width: auto;
+        background: linear-gradient(90deg, #9945FF, #0BCB7B);
+        border-radius: 6px;
+        padding: 10px 14px;
+        box-shadow: 0px 0px 10px rgba(0, 255, 204, 0.5);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar-nav .btn:hover {
+        background: linear-gradient(90deg, #7C3AED, #17EAD9);
+        box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.8);
+    }
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; /* Reduce el espacio entre los enlaces */
+    }
+
+    .navbar-toggler {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 8px;
+        border-radius: 6px;
+        background: linear-gradient(90deg, #9945FF 0%, #0BCB7B 100%);
+    }
+
+    .navbar-toggler-icon {
+        filter: brightness(1.8);
+    }
+
+    .navbar-nav .btn {
+        width: 70%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; /* Reduce el espacio entre los enlaces */
+    }
+
+    .navbar-toggler {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 6px;
+        background: linear-gradient(90deg, #9945FF 0%, #0BCB7B 100%);
+    }
+
+    .navbar-toggler-icon {
+        filter: brightness(1.8);
+    }
+
+    .navbar-nav .btn {
+        width: 80%;
+        margin-top: 10px;
+    }
 }
 
 /* Estilos para tabletas: colocar las tarjetas en una sola columna */
@@ -91,5 +247,7 @@
         width: 100%;
         max-width: 500px;
     }
+
+    
 }
 
