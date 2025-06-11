@@ -65,6 +65,45 @@ word-wrap: break-word;
 letter-spacing: -0.32px;
 }
 
+.attention {
+    color: #74797d;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    letter-spacing: -0.32px;
+}
+
+a{
+    color: #b8c0c6;
+    text-decoration: none;
+}
+
+.link{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    letter-spacing: -0.32px;
+}
+.privacy{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    letter-spacing: -0.32px;
+}
+
+.copyingLogo{
+    height: 50px;
+    width: 50px;
+}
 
 .features{
 color: white;

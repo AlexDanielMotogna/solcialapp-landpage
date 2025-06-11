@@ -1,5 +1,9 @@
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
+    .copyrightLogos{
+        height: 50px;
+        width: 50px;
+    }
     .container {
         padding-left: 16px;
         padding-right: 16px;
@@ -31,7 +35,7 @@
     }
 
     .navbar-nav .btn {
-        width: 80%;
+        width: auto;
         margin-top: 10px;
     }
     
@@ -96,8 +100,8 @@
 
     /* Personalización del icono dentro del botón */
     .navbar-toggler-icon {
-        width: 26px;
-        height: 26px;
+        width: 18px;
+        height: 18px;
         background-image: none;
         position: relative;
         display: flex;
@@ -111,7 +115,7 @@
         content: "";
         display: block;
         height: 3px;
-        width: 26px;
+        width: 18px;
         background-color: white;
         border-radius: 5px;
         transition: all 0.3s ease-in-out;
@@ -180,6 +184,10 @@
     }
 }
 @media (max-width: 992px) {
+    .copyrightLogos{
+        height: 50px;
+        width: 50px;
+    }
     .navbar-collapse {
         text-align: center;
     }
@@ -209,6 +217,10 @@
 }
 
 @media (max-width: 1200px) {
+    .copyrightLogos{
+        height: 50px;
+        width: 50px;
+    }
     .navbar-collapse {
         text-align: center;
     }
@@ -231,13 +243,17 @@
     }
 
     .navbar-nav .btn {
-        width: 80%;
+        width: auto;
         margin-top: 10px;
     }
 }
 
 /* Estilos para tabletas: colocar las tarjetas en una sola columna */
 @media (max-width: 1200px) {
+    .copyrightLogos{
+        height: 50px;
+        width: 50px;
+    }
     .row {
         display: flex;
         flex-direction: column;
